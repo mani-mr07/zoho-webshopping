@@ -15,6 +15,7 @@ public class HelloServlet extends HttpServlet {
         throws ServletException, IOException {
 
         request.setAttribute("name", "Manikandan");
+            System.out.println("Parameter is setted");
         RequestDispatcher dispatcher = request.getRequestDispatcher("hello.jsp");
         dispatcher.forward(request, response);
     }
