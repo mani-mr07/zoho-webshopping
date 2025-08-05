@@ -22,7 +22,7 @@ public class HelloServlet extends HttpServlet {
         System.out.println("User ");
 
 
-        System.out.println("User action");
+        System.out.println("Dummy baba");
         System.out.println("User is not available");
         
 
