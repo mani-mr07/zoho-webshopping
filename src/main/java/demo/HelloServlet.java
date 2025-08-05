@@ -26,7 +26,7 @@ public class HelloServlet extends HttpServlet {
         System.out.println("User is not available");
         
 
-        System.out.println("not a user");
+        System.out.println("vanakam da maple");
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("hello.jsp");
         dispatcher.forward(request, response);
