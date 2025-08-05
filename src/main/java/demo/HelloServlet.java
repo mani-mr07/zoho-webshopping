@@ -24,8 +24,13 @@ public class HelloServlet extends HttpServlet {
 
 
 
+
         System.out.println("Dummy baba");
         System.out.println("User is not available");
+
+        System.out.println("Dummy Baba is not used");
+        System.out.println("User is not needed");
+
         
 
         System.out.println("vanakam da maple");
