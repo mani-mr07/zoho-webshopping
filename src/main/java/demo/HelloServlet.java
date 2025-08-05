@@ -27,6 +27,7 @@ public class HelloServlet extends HttpServlet {
         
 
         System.out.println("vanakam da maple");
+        System.out.println("hello1");
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("hello.jsp");
         dispatcher.forward(request, response);
