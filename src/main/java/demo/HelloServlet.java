@@ -18,7 +18,7 @@ public class HelloServlet extends HttpServlet {
 
         System.out.println("request parameter is setted");
         System.out.println("param");
-        System.out.println("Hi bro");
+        System.out.println("Vanakam");
         RequestDispatcher dispatcher = request.getRequestDispatcher("hello.jsp");
         dispatcher.forward(request, response);
     }
