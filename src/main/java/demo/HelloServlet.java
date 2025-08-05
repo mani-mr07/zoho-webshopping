@@ -20,13 +20,12 @@ public class HelloServlet extends HttpServlet {
         System.out.println("param");
 
         System.out.println("User ");
-<<<<<<< HEAD
+
 
         System.out.println("User action");
 
-=======
         System.out.println("not a user");
->>>>>>> new-feature
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("hello.jsp");
         dispatcher.forward(request, response);
     }
