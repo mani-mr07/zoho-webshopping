@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) 
         throws ServletException, IOException {
-
+    	
         request.setAttribute("name", "Manikandan");
 
         System.out.println("request parameter is setted");
@@ -23,6 +23,8 @@ public class HelloServlet extends HttpServlet {
 
 
         System.out.println("User action");
+        System.out.println("User is not available");
+        
 
         System.out.println("not a user");
 
