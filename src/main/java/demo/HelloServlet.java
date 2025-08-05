@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
 
         System.out.println("User ");
 
-        System.out.println("User action");
+        System.out.println("Dummy Baba is not used");
         System.out.println("User is not available");
         
 
